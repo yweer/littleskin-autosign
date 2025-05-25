@@ -63,7 +63,7 @@ async function task() {
 }
 
 async function main() {
-	const max_retry = 3;
+	const max_retry = 9;
 	for (let i = 0; i < max_retry; ++i) {
 		try {
 			await task();
